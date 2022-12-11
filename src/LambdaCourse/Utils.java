@@ -19,7 +19,7 @@ public class Utils {
     public static Double sayininYarisiniAl(int a){
         return a/2.0;
     }
-    public static Integer sayininRakamlariTopma(int a){
+    public static Integer rakamlariTopla(int a){
         int toplam=0;
         while (a!=0){
             toplam=toplam + a%10;
